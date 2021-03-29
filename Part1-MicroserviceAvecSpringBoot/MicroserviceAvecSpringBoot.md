@@ -1,3 +1,6 @@
+<center>
+# Partie 1 : Création d'un microservice avec Spring Boot 
+</center>
 # Spring Initializr
 Soring Initializr vous permet - à l'image d'un restaurant qui vous propose de composer (choix des ingédients) votre sandwitch - de &laquo; composoer votre application &raquo;. Pour faire simple, les ingrédients pour Spring Initializr représentent les différentes dépendances dont on a besoin. L'objectif dans ce qui suit est de vous montrer les étapes à suivre pour définir votre premier microservice.  
 
@@ -37,5 +40,10 @@ Pour ceux qui ont fait le même choix que moi, les étapes à suivres pour impor
 1. Une fois IntelliJ est lancé, cliquer sur ``Import Project``.
 2. Sélectionner le fichier pom.xml du dossier de l'application et cliquer sur le bouton ``open``. 
 
+## Le fichier application.properties
+
+## Exécution de l'application 
 
 
+
+# Création de l'API Rest
