@@ -1,13 +1,24 @@
-<center>
 # Partie 1 : Création d'un microservice avec Spring Boot 
-</center>
+- [Télécharger en format pdf]()
+- [Vidéo associée]()
+
+
 # Spring Initializr
 Soring Initializr vous permet - à l'image d'un restaurant qui vous propose de composer (choix des ingédients) votre sandwitch - de &laquo; composoer votre application &raquo;. Pour faire simple, les ingrédients pour Spring Initializr représentent les différentes dépendances dont on a besoin. L'objectif dans ce qui suit est de vous montrer les étapes à suivre pour définir votre premier microservice.  
-
+	
 
 Vous pouvez créer votre microservice, en utilisant directement votre IDE préféré, moyennant l'instalation de &laquo; Springs Tools &raquo;. Je vais dans un premier temps vous montrer comment le créer en utilisant Spring Initializr et puis, dans un deuxième temps, en utilisant un IDE.  
 
 Pourquoi alors vais-je vous monter comment définir votre premier microservice, en passant par Spring Initializr, puisqu'on peut le faire directement à partir d'un IDE ? La réponse est que 
+
+
+Ci-dessous quelques exemples de **starters** :
+
+- spring-boot-starter-core ;
+- spring-boot-starter-test ;
+- spring-boot-starter-web ;
+- spring-boot-starter-data-jpa ;
+- spring-boot-starter-security.
 
 
 Connectez-vous sur le site [https://start.spring.io](https://start.spring.io). 
@@ -40,6 +51,18 @@ Pour ceux qui ont fait le même choix que moi, les étapes à suivres pour impor
 1. Une fois IntelliJ est lancé, cliquer sur ``Import Project``.
 2. Sélectionner le fichier pom.xml du dossier de l'application et cliquer sur le bouton ``open``. 
 
+
+## Structure du projet 
+
+Jusqu'au là, vous avons : 
+
+1. Crée un projet avec Spring Boot
+2. Configuré et structuré notre projet
+3. Exécuter notre application
+
+ 
+
+
 ## Le fichier application.properties
 
 ## Exécution de l'application 
@@ -47,3 +70,9 @@ Pour ceux qui ont fait le même choix que moi, les étapes à suivres pour impor
 
 
 # Création de l'API Rest
+
+
+
+# Création d'un microservice avec IntelliJ
+
+
